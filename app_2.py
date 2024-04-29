@@ -1,8 +1,6 @@
 from numpy import array
 import numpy as np
-import streamlit as st 
-import folium 
-from streamlit_folium import st_folium , folium_static # Untuk membuat MAP
+import streamlit as st
 from streamlit_option_menu import option_menu # Untuk membuat SIDE BAR
 import pandas as pd
 import PIL.Image as img
