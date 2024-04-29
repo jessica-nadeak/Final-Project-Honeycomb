@@ -6,6 +6,7 @@ import pandas as pd
 import PIL.Image as img
 import time
 import pickle
+
 from time_predict import run_ml
 
 #Tampilan halaman utama
