@@ -100,7 +100,7 @@ def run_ml():
 
     predict = model_.predict(single_sample)
 
-    st.write(predict)
+    #st.write(predict)
     
     st.subheader('Your Foods Are Arriving in')
     if st.button('Predict Delivery Time'):
