@@ -4,7 +4,6 @@ import numpy as np
 #load ML Package
 import joblib
 import os
-import xgboost as xgb
 import LinearRegression
 
 attribut_info = """
