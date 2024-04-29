@@ -61,8 +61,8 @@ def run_ml():
         st.markdown(attribut_info)
     
     total_item = st.number_input('How many food did you order?', 1, 500,)
-    total_distinct = st.number_input('How many types of food did you order', 1, 500)
-    subtotal = st.number_input('How much does your food cost', 1, 30000)
+    total_distinct = st.number_input('How many types of food did you order?', 1, 500)
+    subtotal = st.number_input('How much does your food cost? (in Rupee)', 1, 30000)
     market_id = st.selectbox('Where the restaurant located at?',
                        ['Region 1', 'Region 2', 'Region 3', 'Region 4', 'Region 5','Region 6'])
     order_protocol = st.selectbox('How did you order the Food?', ['Through Porter', 'Call to Restaurant', 'Pre-booked', 'Third Party',
