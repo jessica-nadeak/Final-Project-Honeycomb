@@ -7,10 +7,12 @@ import os
 import LinearRegression
 
 attribut_info = """
-                - Total Item: How many food you ordered
-                - Market_ID: Restaurant Location
-                - Order_Protocol: How do you order
-                - Store_Primary_Category: What kind of restaurant
+                - total_item: Quantity of the food ordered
+                - distinct_item: Number of types of food ordered
+                - subtotal: Food cost in total
+                - market_id: Store location (region)
+                - order_protocol: Order method
+                - restaurant_category: types of restaurant you ordering from
                 """
 
 mar_id = {'Region 1': 1,
